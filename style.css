@@ -4,7 +4,27 @@ header {
     color: white;
     padding: 128px 16px;
 }
- .section {
+ .firstsection {
+    color: black; 
+    background-color: rgb(255, 223, 155); 
+    margin: 20px; 
+    padding: 40px;
+    border-radius: 10%;
+    border: solid black 3px;
+    height: 700px;
+}
+
+.section3 {
+    color: black; 
+    background-color: rgb(255, 223, 155); 
+    margin: 20px; 
+    padding: 40px;
+    border-radius: 10%;
+    border: solid black 3px;
+    height: 600px;
+}
+
+.section {
     color: black; 
     background-color: rgb(255, 223, 155); 
     margin: 20px; 
@@ -12,9 +32,21 @@ header {
     border-radius: 10%;
     border: solid black 3px;
 }
+
+.contact {
+    color: black; 
+    background-color: rgb(255, 223, 155); 
+    margin: 20px; 
+    padding: 40px;
+    border-radius: 10%;
+    border: solid black 3px;
+    text-align: center;
+}
    
  body {
-    background-color: rgb(255, 183, 0);
+    background-color: rgb(255, 201, 64);
+    background-image: url('https://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22264-paw-prints-icon.png');
+    background-size: 50px 50px;
 }
 
 .organization {
@@ -22,20 +54,65 @@ header {
     color: black
 }
 
-img {
+p {
+    font-size: 24px;
+}
+
+.rights {
+    font-size: 24px;
+    position: relative;
+    bottom: 570px;
+    left: 50px
+}
+
+.paragraph1 {
+    width: 400px;
+    position: relative;
+    left: 850px;
+    bottom: 570px;
+}
+
+.paragraph2 {
+    width: 500px;
+    position: relative;
+    left: 750px;
+    bottom: 400px;
+}
+
+hr {
+    color: black;
+}
+
+.doggo {
+    width: 700px;
     border: solid black 3px;
     border-radius: 10%;
     display: flex;
 }
 
-p {
-    font-size: 20px;
+.lab {
+    border: solid black 3px;
+    border-radius: 10%;
+    display: flex;
 }
 
-a {
-    font-size: 20px;
+.area {
+    position: relative;
+    left: 20px;
 }
 
-.paragraph1 {
-    width: 400px;
+.app {
+    align-items: center;
+    width: 50px;
+}
+
+.navbar {
+    height: 30px;
+    background-color: rgb(255, 223, 155);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navlinks {
 }
