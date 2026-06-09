@@ -1,6 +1,41 @@
 /* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
 header {
-    background-color: black;
+    background-image: url('https://lupusla.org/wp-content/uploads/2023/06/Lupus-LA-Benefits-of-Service-Dogs.jpg'); background-size: cover; background-position: 50%; background-repeat: no-repeat; border: solid black 3px;
     color: white;
     padding: 128px 16px;
+}
+ .section {
+    color: black; 
+    background-color: rgb(255, 223, 155); 
+    margin: 20px; 
+    padding: 40px;
+    border-radius: 10%;
+    border: solid black 3px;
+}
+   
+ body {
+    background-color: rgb(255, 183, 0);
+}
+
+.organization {
+    font-size: 60px;
+    color: black
+}
+
+img {
+    border: solid black 3px;
+    border-radius: 10%;
+    display: flex;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    font-size: 20px;
+}
+
+.paragraph1 {
+    width: 400px;
 }
