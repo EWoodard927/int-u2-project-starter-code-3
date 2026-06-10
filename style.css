@@ -50,8 +50,11 @@ header {
 }
 
 .organization {
-    font-size: 60px;
-    color: black
+    font-size: 50px;
+    color: black;
+    width: 300px;
+    position: relative;
+    left: 50px;
 }
 
 p {
