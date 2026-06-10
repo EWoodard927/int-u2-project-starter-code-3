@@ -38,7 +38,7 @@ header {
     background-color: rgb(255, 223, 155); 
     margin: 20px; 
     padding: 40px;
-    border-radius: 10%;
+    border-radius: 15%;
     border: solid black 3px;
     text-align: center;
 }
@@ -103,16 +103,24 @@ hr {
 
 .app {
     align-items: center;
-    width: 50px;
+    width: 75px;
 }
 
 .navbar {
-    height: 30px;
+    height: 50px;
     background-color: rgb(255, 223, 155);
     color: black;
     display: flex;
     justify-content: space-around;
+    border: solid black 3px;
 }
 
 .navlinks {
+    position: relative;
+    top: 10px;
+    height: 30px;
+    cursor: pointer;
+    transition-duration: .2s;
 }
+
+.navlinks:hover {box-shadow: 2px 3px;}
