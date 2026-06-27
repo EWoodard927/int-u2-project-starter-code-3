@@ -9,8 +9,8 @@ header {
     background-color: rgb(255, 223, 155); 
     margin: 20px; 
     padding: 40px;
-    border-radius: 10%;
-    border: solid black 3px;
+    border-radius: 10px;
+    border: solid brown 3px;
     height: 700px;
 }
 
@@ -19,8 +19,8 @@ header {
     background-color: rgb(255, 223, 155); 
     margin: 20px; 
     padding: 40px;
-    border-radius: 10%;
-    border: solid black 3px;
+    border-radius: 10px;
+    border: solid brown 3px;
     height: 600px;
 }
 
@@ -29,8 +29,8 @@ header {
     background-color: rgb(255, 223, 155); 
     margin: 20px; 
     padding: 40px;
-    border-radius: 10%;
-    border: solid black 3px;
+    border-radius: 10px;
+    border: solid brown 3px;
 }
 
 .contact {
@@ -38,8 +38,8 @@ header {
     background-color: rgb(255, 223, 155); 
     margin: 20px; 
     padding: 40px;
-    border-radius: 15%;
-    border: solid black 3px;
+    border-radius: 10px;
+    border: solid brown 3px;
     text-align: center;
 }
    
@@ -85,18 +85,19 @@ p {
 
 hr {
     color: black;
+    border: solid brown 3px;
 }
 
 .doggo {
     width: 700px;
-    border: solid black 3px;
-    border-radius: 10%;
+    border: solid brown 3px;
+    border-radius: 10px;
     display: flex;
 }
 
 .lab {
-    border: solid black 3px;
-    border-radius: 10%;
+    border: solid brown 3px;
+    border-radius: 10px;
     display: flex;
 }
 
@@ -116,7 +117,7 @@ hr {
     color: black;
     display: flex;
     justify-content: space-around;
-    border: solid black 3px;
+    border: solid brown 3px;
 }
 
 .navlinks {
